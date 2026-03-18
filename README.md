@@ -1,3 +1,9 @@
+# 开启RFC参数BBR
+
+```bash
+bash <(wget -qO- https://raw.githubusercontent.com/csh733/Script/main/enable_bbr.sh)
+```
+
 # 开启BBR
 
 ```bash
