@@ -84,6 +84,9 @@ net.ipv4.ip_forward             = 1
 net.ipv6.conf.all.forwarding    = 1
 net.ipv6.conf.default.forwarding= 1
 net.ipv4.conf.all.route_localnet= 1
+net.ipv4.tcp_keepalive_time = 60
+net.ipv4.tcp_keepalive_intvl = 10
+net.ipv4.tcp_keepalive_probes = 5
 
 EOF
 
