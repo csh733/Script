@@ -52,6 +52,9 @@ echo "[5/6] 写入新配置 -> $CONF_FILE"
 cat > "$CONF_FILE" <<'EOF'
 
 # ===== Default Network Tuning =====
+net.ipv4.tcp_keepalive_time = 60
+net.ipv4.tcp_keepalive_intvl = 10
+net.ipv4.tcp_keepalive_probes = 5
 net.core.default_qdisc          = fq
 net.ipv4.tcp_congestion_control = bbr
 net.ipv4.ip_local_port_range    = 1024 65535
